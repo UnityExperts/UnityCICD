@@ -4,10 +4,16 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="EditModeTests" t="Include">
+          <e p="EditModeTests.asmdef" t="Include" />
+          <e p="OtherTest.cs" t="Include" />
+          <e p="Test.cs" t="Include" />
+        </e>
         <e p="Script" t="Include">
           <e p="First.cs" t="Include" />
         </e>
       </e>
+      <e p="EditModeTests.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Temp/Bin" t="ExcludeRecursive" />

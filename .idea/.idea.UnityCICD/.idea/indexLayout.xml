@@ -61,6 +61,7 @@
       <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
+      <Path>test</Path>
     </explicitExcludes>
   </component>
 </project>
