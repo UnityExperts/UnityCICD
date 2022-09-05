@@ -70,3 +70,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# artifacts/ folder might be created during a GitHub Action to log results of tests.
+# Let's ignore that folder to avoid the error "Branch is dirty. Refusing to base semantic version on uncommitted changes"
+/artifacts/
